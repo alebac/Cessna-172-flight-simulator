@@ -1,0 +1,17 @@
+0.01                                      dt
+600                                       simulationDuration
+simulazione1.dat                          outputFileName
+60                                        speed
+1000                                      altitude
+0                                         stepNumber
+
+
+/*
+ * To define a step: 
+ *   - starting time 
+ *   - ending time
+ *   - step value
+ * for each step, so if stepNumber is 2 you need to add 6 more values.
+ * max stepNumber = 20.
+ * If stepNumber is bigger than 20 program will execute without commands
+ */
